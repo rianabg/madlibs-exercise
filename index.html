@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Madlibs Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Quicksand" rel="stylesheet">
+  <body>
+    <h1>Mad Libs Generator</h1>
+    <p>Choose a story type, then input 4 or more words per word-type separated by commas (no spaces).</p>
+    <div id="user-input">
+        <div id="story-type">
+            <label>Story Type:</label>
+        </div>
+            <div id="radio">
+                <input type="radio" name="type" id="date" value="date">First Date
+                <input type="radio" name="type" id="vacation" value="vacation">Vacation
+                <input type="radio" name="type" id="school" value="school">First Day of School
+            </div>
+        <div id="words">
+            <label>Nouns</label>
+                <input type="text" id="nouns" name="nouns">
+            <label>Adjectives</label>
+                <input type="text" id="adjectives" name="adjectives">
+            <label>Verbs</label>
+                <input type="text" id="verbs" name="verbs">
+            <label>Adverbs</label>
+                <input type="text" id="adverbs" name="adverbs">
+        </div>
+        <input type="submit" name="generate" value="Generate MadLib" onclick="genMadLib()">
+    </div>
+    <div class="story" id="date-story">
+        <p>Dear Diary,<br>
+
+Today I went on my very first date. I think it went rather <span class="adverb"></span>. First, my date picked me up and told me I looked <span class="adjective"></span>. Then we went to dinner, where the restaurant was named <span class="noun"></span> and was <span class = "noun"></span> themed. They mostly served <span class = "noun"></span>. That was very <span class = "adjective"></span>. After dinner I was feeling pretty <span class = "adjective"></span>, so I told my date I had to <span class = "verb"></span>. I’m not sure my date understood, but they ended up <span class = "verb"></span>ing me home after that. When we got to my house, my date noticed that my house was right next to a <span class = "noun"></span> museum, and offered to take me there before going home. At the museum, my date <span class = "adverb"></span> tried to <span class = "verb"></span> me! That’s a first. After the museum, my date dropped me off. All in all, I think the date went <span class = "adverb"></span>. My date was very <span class = "adjective"></span>, which was <span class = "adverb"></span> refreshing. Now I need to go <span class = "verb"></span>.<br>
+
+Later,<br>
+
+R
+        </p>
+    </div>
+    <div class="story" id="vacation-story">
+        <p>Dear Diary,<br>
+
+I am so <span class="adjective"></span>! Tomorrow I am leaving on vacation with my family. We are traveling by way of <span class="noun"></span>, which will be <span class="adverb"></span> interesting. I am hoping to be able to <span class="verb"></span> while on vacation, which will be <span class="adjective"></span>. My dad always gets really <span class="adjective"></span> about <span class="noun"></span> while we’re on vacation, but I’m hoping this trip will be an exception. My mom always sneaks away to the nearest <span class="noun"></span> spot on vacation. My family is so <span class="adverb"></span> <span class="adjective"></span>. On our last vacation, I would <span class="verb"></span> everywhere I went. That made my dad want to <span class="verb"></span>, which I don’t understand.  I’m hoping this trip will go <span class="adverb"></span> better than our last, although I did enjoy the <span class="noun"></span> party we stumbled upon. I will <span class="verb"></span> in the hope that something like that will happen again on this trip. Well diary, I will <span class="adverb"></span> miss you as I am not bringing you along on my trip. What happen in Vegas stays in Vegas!<br>
+
+Later,<br>
+
+R
+        </p>
+    </div>
+    <div class="story" id="school-story">
+        <p>Dear Diary,<br>
+
+Today was my first day of school. Let me tell you, it went <span class="adverb"></span>. My first class was on <span class="noun"></span> which I thought I wouldn’t study until college! In class my friend passed me a note, the <span class="adjective"></span> teacher noticed, and then told me to stand up and <span class="verb"></span> in front of the whole class. That was the worst punishment I’ve ever received. My next class was on <span class="noun"></span>, which is something I’m <span class="adverb"></span> interested in. My crush, who is so <span class="adjective"></span>, is in that class. I couldn’t help but <span class="verb"></span> the whole time in class, I was so nervous! My next class topic was on <span class="noun"></span>, which is the <span class="adverb"></span> <span class="adjective"></span> subject ever. After that class was lunch period. The lunch ladies served <span class="adverb"></span> disgusting food, it made me have to <span class="verb"></span> to the bathroom. In the bathroom, someone had written 'This school is <span class="adjective"></span>' on the wall. Kids these days. My last class of the day was on <span class="noun"></span>. I was so tired of school after that class that I couldn’t wait to <span class="verb"></span> to the bus and go home. I’m tired.<br>
+
+Later,<br>
+
+R
+
+        </p>
+    </div>
+    <script src="backup.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
+

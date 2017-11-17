@@ -1,0 +1,57 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #3BC7CC;
+}
+
+#user-input {
+    font-family: 'Open Sans', sans-serif;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+}
+
+#story-type {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+}
+
+#radio input {
+    margin: 15px 15px 15px 5px;
+}
+
+
+#words {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    }
+
+#words input {
+    height: 40px;
+    width: 300px;
+    font-size: 24px;
+    margin: 5px 15px 15px 15px;
+    background-color: #36F0F7;
+    border: none;
+}
+
+#words input:focus {
+    border: 1px blue solid;
+}
+
+.story.show {
+    display: block;
+}
+
+.story {
+    display: none;
+    padding: 20px 50px;
+}

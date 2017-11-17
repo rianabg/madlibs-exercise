@@ -1,0 +1,5 @@
+/* backup words */
+var backupNouns = ['chinese food', 'rubber duck', 'dandelion', 't-shirt', 'Dog The Bounty Hunter', 'Limewire', 'trolls', 'crackers', 'Oprah Winfrey'];
+var backupVerbs = ['shimmy', 'dance', 'kiss', 'shake', 'wiggle', 'tickle', 'laugh', 'sweat'];
+var backupAdverbs = ['accidentally', 'always', 'angrily', 'anxiously', 'awkwardly', 'badly', 'blindly', 'boastfully', 'boldly', 'bravely', 'brightly', 'cheerfully', 'coyly', 'crazily', 'defiantly', 'deftly', 'deliberately', 'devotedly', 'doubtfully', 'dramatically', 'dutifully', 'eagerly', 'elegantly', 'enormously', 'evenly', 'eventually', 'exactly', 'faithfully', 'finally', 'foolishly', 'fortunately', 'frequently', 'gleefully','gracefully', 'happily', 'hastily', 'honestly', 'hopelessly', 'hourly','hungrily'];
+var backupAdjectives = ['ugly', 'pretty', 'gurgly', 'weird', 'bodacious', 'sneaky', 'happy', 'confused'];
